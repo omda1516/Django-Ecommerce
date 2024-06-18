@@ -1,7 +1,14 @@
-database.db
-.venv/
-*/__pycache__/
-*/*/__pycache__/
-*/migrations/*
-!*/migrations/__init__.py
-venv/
+env
+**/*.pyc
+**/__pycache__
+media
+.DS_Store
+#*.sqlite3 demo db
+*.env
+
+# Accept these files in the repository
+!.gitignore
+!.travis.yml
+/.env
+/.vscode
+/.idea
